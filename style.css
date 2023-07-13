@@ -1,0 +1,76 @@
+body{
+    font-family: Arial;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    width: 98%;
+    height: 95vh;
+    background-size: 300% 300%;
+    background-image: linear-gradient(-45deg, rgb(0, 187, 0) 0%, rgb(3, 211, 3) 25%, rgb(0, 255, 0) 51%, #5335ff 100%);
+}
+
+.quote-space{
+
+    background-color: rgb(247, 247, 229);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    border: 5px;
+    border-color: rgb(255, 136, 0);
+    border-style: solid;
+
+    width: 500px;
+    height: 300px;
+}
+
+.quote-text{
+    
+    font-size: 19px;
+    font-family: 'Nanum Myeongjo', serif;
+    width: 85%;
+    height: fit-content;
+    text-align: center;
+}
+
+.quote-author{
+    font-size: 25px;
+    font-family: 'Fasthand', cursive;
+    height: fit-content;
+    width: 85%;
+    text-align: center;
+}
+
+.generate-quote-button{
+
+    font-family: 'Nanum Myeongjo';
+    font-size: 22px;
+
+    margin: 25px;
+    height: 35px;
+    width: 170px;
+
+    border-width: 3px;
+    border-radius: 4px;
+    border-style: solid;
+    border-color: rgb(255, 136, 0);
+
+    background-color: rgb(247, 247, 229);
+
+}
+
+.generate-quote-button:hover{
+
+    background-color: rgb(250, 250, 250);
+    border-color: rgb(255, 181, 97);
+}
+
+.generate-quote-button:active{
+
+    background-color: rgba(250, 250, 250,0.5);
+    border-color: rgba(255, 181, 97,0.5);
+}
