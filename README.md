@@ -8,7 +8,7 @@ The Quotes Generator is a creative project that randomly presents quotes from fa
 - Easy-to-use interface for seamless user interaction.
 
 ## Technologies Used
-- [List the technologies you used – e.g., JavaScript, HTML, CSS, any APIs for quotes, etc.]
+- [JavaScript, HTML, CSS]
 
 ## Installation and Setup
 No complex setup required. Follow these steps to get the project running:
